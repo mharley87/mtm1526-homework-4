@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+.body {
+	margin:0  auto;
+	width:500px;
+}
+
+nav ul {
+	width:500px;
+	margin: 0;
+	padding: 0;
+}
+.current {
+	z-index:100;
+	
+}
+.tab-buttons a {
+
+}
+.tab-buttons li {
+	display:inline;
+	
+	list-style-type:none;
+	
+		
+}
+
+.tab-buttons li:first-child {
+background-color:#006666;
+
+}
+
+.tab-buttons li:nth-child(2) {
+	
+background-color:#9C3;
+
+}
+
+
+.tab-buttons li:nth-child(3) {
+background-color:#F36;
+
+}
+
+.tab-buttons li:last-child {
+background-color:#0FF;
+
+}
+
+
+.tab-group {
+	margin: 0;
+	padding: 0;
+}
+.tab-group div{
+	margin: 0;
+	padding: 0;
+	display: none;
+	width:500px;
+	height:500px;
+	
+}
+
+#tab-1 {
+	background-color:#006666;
+}
+
+#tab-2 {
+	background-color:#9C3;
+}
+
+
+#tab-3 {
+	background-color:#F36;
+}
+
+#tab-4 {
+		background-color:#0FF;	
+}
